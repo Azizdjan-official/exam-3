@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#imagelar
+{
+    position: relative;
+}
+.details
+{
+    visibility: hidden;
+    position: absolute;
+    bottom: -10%;
+    right: 0%;
+    width: 100%;
+    overflow: hidden;
+}
+#imagelar:hover .details
+{
+    visibility: visible;
+    position: absolute;
+    bottom: 0%;
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+.images
+{
+    width: 88%;
+    margin: auto;
+    padding-top: 1rem;
+    background: #F8F9FA;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.image
+{
+    width: 22%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+.image img
+{
+    width: 100%;
+}
+.katta
+{
+    width: 100%;
+    background: #F8F9FA;
+}
